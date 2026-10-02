@@ -126,6 +126,7 @@ body {
         0 4px 10px rgba(0, 0, 0, 0.10);
         flex-direction: column;
         height: 100%;
+        display: flex;
 }
 
     Define a altura das imagens
@@ -194,4 +195,5 @@ body {
 .card-body {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
