@@ -125,6 +125,7 @@ body {
     box-shadow:
         0 4px 10px rgba(0, 0, 0, 0.10);
         flex-direction: column;
+        height: 100%;
 }
 
     Define a altura das imagens
@@ -188,5 +189,9 @@ body {
 
 .card button{
     margin-top: auto;
-    align-self: center;
+    align-self: flex-start;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
 }
