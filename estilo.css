@@ -1,0 +1,192 @@
+/* ==================================================
+   CONFIGURAÇÕES GERAIS
+================================================== */
+
+/*
+    Remove margens padrão do navegador.
+*/
+
+body {
+    margin: 0;
+
+    /*
+        Define a fonte utilizada
+        em toda a página.
+    */
+
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* ==================================================
+   BANNER
+================================================== */
+
+/*
+    A classe .banner foi criada por nós.
+
+    Ela não é uma tag HTML.
+
+    É uma classe CSS utilizada para
+    identificar e estilizar o banner.
+*/
+
+.banner {
+
+    /*
+        Define a cor de fundo.
+    */
+
+    background-color: #e9ecef;
+
+
+    /*
+        Espaçamento interno
+        acima e abaixo.
+    */
+
+    padding: 120px 0;
+
+
+    /*
+        Centraliza o conteúdo.
+    */
+
+    text-align: center;
+
+}
+
+
+
+/*
+    Estiliza o título do banner.
+*/
+
+.banner h1 {
+
+    /*
+        Tamanho da fonte.
+    */
+
+    font-size: 48px;
+
+
+    /*
+        Espaço abaixo do título.
+    */
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/*
+    Estiliza o parágrafo do banner.
+*/
+
+.banner p {
+
+    font-size: 20px;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+/* ==================================================
+   SEÇÃO SOBRE
+================================================== */
+
+.sobre {
+
+    /*
+        Cor de fundo da seção.
+    */
+
+    background-color: #f8f9fa;
+
+}
+
+
+
+/* ==================================================
+   CARDS
+================================================== */
+
+/*
+    Define uma sombra nos cards.
+*/
+
+.card {
+
+    box-shadow:
+        0 4px 10px rgba(0, 0, 0, 0.10);
+        flex-direction: column;
+}
+
+    Define a altura das imagens
+    dos carros.
+*/
+
+.card-img-top {
+
+    height: 220px;
+
+
+    /*
+        object-fit: cover mantém a imagem
+        preenchendo o espaço sem deformá-la.
+    */
+
+    object-fit: cover;
+
+}
+
+
+
+/* ==================================================
+   FOOTER
+================================================== */
+
+.footer {
+
+    background-color: #212529;
+
+    color: white;
+
+    padding: 50px 0 20px;
+
+}
+
+
+
+/*
+    Espaçamento dos textos
+    do rodapé.
+*/
+
+.footer p {
+
+    margin-bottom: 8px;
+
+}
+
+
+
+/*
+    Linha divisória.
+*/
+
+.footer hr {
+
+    margin-top: 30px;
+
+}
+
+.card button{
+    margin-top: auto;
+    align-self: center;
+}
